@@ -1,8 +1,4 @@
 import math
-
-print('Witaj w kalkulatorze obliczającym dwumian Newtona')
-
-
 el = list(map(int,input("Wprowadź najpierw n później k oddzielając je spacją: ").strip().split()))
 
 if len(el)>=3:
